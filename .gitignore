@@ -35,7 +35,6 @@ hugo.exe
 hugo.darwin
 hugo.linux
 /.hugo_build.lock
-/themes/
 
 # vsc
 .vscode/
