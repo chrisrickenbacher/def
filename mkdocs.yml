@@ -1,0 +1,45 @@
+site_name: Digital Evolution Framework
+site_url: https://digitalevolutionframework.com
+site_author: Christian Rickenbacher
+site_description: >-
+  Digital Evolution Framework
+copyright: Copyright &copy; 2024 Christian Rickenbacher
+docs_dir: content/
+theme:
+  name: material
+  icon:
+    logo: material/library
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      primary: black
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  features:
+    - content.code.copy
+    - content.code.annotate
+    - navigation.sections
+    - navigation.path
+    - navigation.tabs
+    - search.highlight
+    - search.share
+    - search.suggest
+markdown_extensions:
+  - attr_list
+plugins: 
+  - glightbox
+  - mkdocs-pdf
+nav: 
+  - Home: index.md
+  - "Need help with your digital evolution?": "https://bridg.ch"
