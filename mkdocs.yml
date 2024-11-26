@@ -40,6 +40,7 @@ markdown_extensions:
 plugins: 
   - glightbox
   - mkdocs-pdf
+  - search
 nav: 
   - Home: index.md
   - "Need help with your digital evolution?": "https://bridg.ch"
