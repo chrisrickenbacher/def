@@ -44,7 +44,6 @@ plugins:
 nav: 
   - Home: index.md
   - Context:
-    - 
   - Phase:
     - phase/refinement.md
     - phase/testing.md
