@@ -43,4 +43,13 @@ plugins:
   - search
 nav: 
   - Home: index.md
-  - "Need help with your digital evolution?": "https://bridg.ch"
+  - Context:
+    - 
+  - Phase:
+    - phase/refinement.md
+    - phase/testing.md
+  - Types:
+    - types/erp-implementation.md
+  - Methods / Tools:
+    - methods-tools/acceptance-testing.md
+  - "Need help with yo:ur digital evolution?": "https://bridg.ch"
